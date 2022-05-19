@@ -17,15 +17,16 @@
     <nav class="container flex items-center py-4 mt-4 sm:mt-12">
       <div class="py-1 "><img src="img/logo-bookmark.svg" alt="Logo"></div>
       <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
-        <li class="cursor-pointer">Feature</li>
-        <li class="cursor-pointer">Pricing</li>
-        <li class="cursor-pointer">Contact</li>
+        <li class="cursor-pointer py-3 px-5 rounded-md hover:bg-bookmark-purple hover:text-white">Feature</li>
+        <li class="cursor-pointer  py-3 px-5 rounded-md hover:bg-bookmark-purple hover:text-white">Pricing</li>
+        <li class="cursor-pointer  py-3 px-5 rounded-md hover:bg-bookmark-purple hover:text-white">Contact</li>
         <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">Login</button>
       </ul>
       <div class="flex sm:hidden flex-1 justify-end">
         <i class="text-2xl fas fa-bars"></i>
       </div>
     </nav>
+    <!-- NAVBAR -->
   </header>
   <!-- HERO -->
   <section class="relative">
@@ -54,7 +55,7 @@
     </div>
   </section>
   <!-- FEATURES -->
-  <section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+  <section class="bg-bookmark-white py-20 mt-20 lg:mt-30">
     <!-- HEADING -->
     <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
       <h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
@@ -189,6 +190,7 @@
         <p class="text-center text-bookmark-grey mt-4"> Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
       </div>
       <!-- FAQ ITEMS -->
+      <!--
       <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
         <div class="flex items-center border-b py-4">
           <span class="flex-1">What is a Bookmark?</span>
@@ -204,7 +206,27 @@
           <i class="text-bookmark-purple fas fa-chevron-down"></i>
         </div>
         <button type="button" class="mt-12flex self-center btn btn-purple hover:bg-bookmark-white hover:text-black">More info</button>
-      </div>
+      </div>  -->
+      <!-- ACCORDION -->
+      <button class="accordion flex flex-col lg:w-5/12 sm:w-2/3 mt-2 mx-auto ">What is a Bookmark?</button>
+<div class="flex flex-col sm:w-2/3 lg:w-5/12 mt-2 mx-auto panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="flex flex-col lg:w-5/12 sm:w-2/3 mt-2 mx-auto accordion">How can I request a new browser?</button>
+<div class="flex flex-col lg:w-5/12 sm:w-2/3 mt-2 mx-auto panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="flex flex-col lg:w-5/12 mt-2 sm:w-2/3 mx-auto accordion">Is there a mobile app?</button>
+<div class="flex flex-col sm:w-2/3 lg:w-5/12 mt-2 mx-auto panel ">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="accordion flex flex-col lg:w-5/12 sm:w-2/3 mt-2 mx-auto">What about other Chromium browsers?</button>
+<div class="flex flex-col sm:w-2/3 lg:w-5/12 mt-2 mx-auto panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
     </div>
   </section>
   <!-- CONTACT US-->

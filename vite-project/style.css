@@ -13,3 +13,19 @@
 .btn-white {
     @apply bg-bookmark-white
 }
+
+.accordion {
+    @apply bg-[#eee] text-[#444] cursor-pointer p-[18px] w-full border-none text-left outline-none text-sm
+    transition duration-300
+  }
+  
+  .active, .accordion:hover {
+    @apply
+    bg-[#eee]
+  }
+  
+  .panel {
+    @apply py-0 px-[18px] hidden bg-white overflow-hidden
+  }
+
+  
