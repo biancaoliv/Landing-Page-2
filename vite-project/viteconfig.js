@@ -1,3 +1,3 @@
 export default {
-    base: '/login-page/'
+    base: '/landing-page-2/'
   }
