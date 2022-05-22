@@ -15,4 +15,6 @@ var acc = document.getElementsByClassName("accordion");
     });
   }
 
-  
+  document.getElementById("navbar-burger").addEventListener("click",function(){
+    document.getElementById("navbar-menu").classList.toggle("hidden")
+  })
